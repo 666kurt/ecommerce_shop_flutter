@@ -9,6 +9,7 @@ class SettingScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Setting'),
         backgroundColor: Colors.transparent,
+        automaticallyImplyLeading: false,
       ),
     );
   }

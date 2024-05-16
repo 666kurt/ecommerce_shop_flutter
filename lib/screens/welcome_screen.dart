@@ -41,6 +41,7 @@ class WelcomeScreen extends StatelessWidget {
                 Navigator.pushNamed(context, '/main_screen');
               },
               icon: Icon(Icons.arrow_forward),
+              // padding: 25,
             )
           ],
         ),
